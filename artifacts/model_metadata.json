@@ -1,0 +1,69 @@
+{
+  "feature_columns": [
+    "AGE",
+    "GENDER_ENC",
+    "INSURANCE_ENC",
+    "HAS_PCP_FLAG",
+    "LENGTH_OF_STAY",
+    "NUM_PROCEDURES",
+    "NUM_DIAGNOSES",
+    "DIAGNOSIS_RISK_SCORE",
+    "DISPOSITION_RISK_SCORE",
+    "ED_ADMISSION",
+    "HEART_RATE",
+    "SYSTOLIC_BP",
+    "DIASTOLIC_BP",
+    "TEMPERATURE",
+    "RESPIRATORY_RATE",
+    "O2_SATURATION",
+    "BLOOD_GLUCOSE",
+    "CREATININE",
+    "HEMOGLOBIN",
+    "WBC_COUNT",
+    "SODIUM",
+    "POTASSIUM",
+    "BNP",
+    "ABNORMAL_HR",
+    "ABNORMAL_BP",
+    "LOW_O2",
+    "HIGH_CREATININE",
+    "LOW_HEMOGLOBIN",
+    "HIGH_BNP",
+    "ABNORMAL_GLUCOSE",
+    "PRIOR_ADMISSIONS_6M",
+    "PRIOR_READMISSIONS",
+    "AVG_PRIOR_LOS"
+  ],
+  "target": "READMITTED_30D",
+  "insurance_classes": [
+    "MEDICAID",
+    "MEDICARE",
+    "PRIVATE",
+    "SELF_PAY"
+  ],
+  "diagnosis_risk_map": {
+    "HEART_FAILURE": 3,
+    "SEPSIS": 3,
+    "COPD": 2,
+    "RENAL_FAILURE": 2,
+    "ACUTE_MI": 2,
+    "DIABETES_COMPLICATIONS": 2,
+    "STROKE": 2,
+    "PNEUMONIA": 1,
+    "GI_BLEED": 1,
+    "HIP_FRACTURE": 1
+  },
+  "disposition_risk_map": {
+    "HOME": 0,
+    "HOME_HEALTH": 1,
+    "REHAB": 1,
+    "SNF": 2,
+    "AMA": 3
+  },
+  "model_metrics": {
+    "roc_auc": 0.552,
+    "average_precision": 0.2895
+  },
+  "training_samples": 8617,
+  "test_samples": 2155
+}

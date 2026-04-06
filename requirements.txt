@@ -1,0 +1,9 @@
+snowflake-ml-python>=1.22.0
+snowflake-snowpark-python
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+joblib
+pyarrow

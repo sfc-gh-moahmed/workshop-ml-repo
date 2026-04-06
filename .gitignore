@@ -1,0 +1,31 @@
+# Data artifacts (large files - not tracked in git)
+artifacts/*.csv
+artifacts/*.joblib
+artifacts/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Snowflake
+.snowflake/
