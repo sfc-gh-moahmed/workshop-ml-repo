@@ -780,20 +780,6 @@ healthcare-readmission-ml/
     └── model_evaluation.png         # Confusion matrix + feature importance plot
 ```
 
----
-
-## Snowflake Connection Details
-
-| Setting | Value |
-|---------|-------|
-| Connection profile | `DEMO` |
-| Account | `sfsenorthamerica-moizahmeddemo` |
-| Role | `ACCOUNTADMIN` |
-| Database | `HEALTHCARE_ML` |
-| Warehouse | `HEALTHCARE_ML_WH` (XS, 60s auto-suspend) |
-| Compute Pool | `DEMO_POOL_CPU` (CPU_X64_S, 1-10 nodes) |
-
----
 
 ## Verification Status
 
